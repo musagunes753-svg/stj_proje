@@ -1,0 +1,145 @@
+body {
+    background-color: gray;
+}
+
+.ustbar {
+    margin-top: 10px;
+    display: flex;
+    background-color: lightblue;
+    border: 2px solid black;
+    border-radius: 30px;
+    height: 70px;
+    text-align: center;
+    align-items: center;
+}
+
+.ustbar h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 20px;
+    text-align: center;
+}
+
+
+.üsty {
+    margin-left: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.üstyazı {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px 10px;
+}
+
+.üstyazı:hover {
+    color: lightcoral;
+}
+
+
+
+img {
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+
+.card:hover {
+    cursor: pointer;
+    background-color: lightblue;
+}
+
+.yanyana {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+}
+
+.card {
+    display: flex;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+.altbar {
+
+    font-family: cursive;
+    justify-content: space-around;
+    display: flex;
+    background-color: rgb(53, 53, 53);
+    height: 150px;
+    color: white;
+    border-radius: 15px;
+}
+
+.altbar p {
+    margin: 10px;
+    font-size: 15px;
+}
+
+.git {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bilgi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kural {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+.yazı1:hover {
+    cursor: pointer;
+    color: lightcoral;
+}
+
+.yazı2:hover {
+    cursor: pointer;
+    color: lightcoral;
+}
+
+.yazı3 a:hover {
+    cursor: pointer;
+    color: blueviolet;
+}
+
+.yazı4 a:hover {
+    cursor: pointer;
+    color: blueviolet;
+}
+
+.yazı5:hover {
+    cursor: pointer;
+    color: aquamarine;
+}
+
+.yazı6:hover {
+    cursor: pointer;
+    color: aquamarine;
+}
+
+.yazı7:hover {
+    cursor: pointer;
+    color: aquamarine;
+}
