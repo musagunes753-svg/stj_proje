@@ -1,0 +1,45 @@
+.ustyazı {
+    background-color: rgb(0, 71, 171);
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    height: 100px;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    padding-left: 150px;
+    padding-top: 40px;
+    display: inline-block;
+}
+
+.container {
+    background-color: rgba(14, 96, 227, 0.899);
+
+    height: 400px;
+    margin: 10%;
+    border: 2px solid rgba(14, 96, 227, 0.899);
+    border-radius: 25px;    
+    box-shadow: 0px 10px 25px;
+}
+
+.container:hover {
+    background-color: rgb(73, 86, 133);
+}
+
+.ortayazı {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.altkısım {
+    background-color: blue;
+    text-align: center;
+    height: 40px;
+
+}
+
+.altkısımyazı {
+    padding-top: 10px;
+    color: white;
+}
