@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(33, 209, 240);
+
+        }
+
+        .btn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 200px;
+            width: 550px;
+            height: 150px;
+            font-size: 100px;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            border-radius: 25px;
+            border: 2px solid black;
+        }
+        .btn:hover{
+            cursor: pointer;
+        }
+
+        .box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 50px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Ehliyet Hesaplama</h1>
+    <div class="box">
+        <button onclick="ehliyetCheck()" class="btn">HESAPLA
+
+    </div>
+
+    </button>
+
+
+    <script>
+        //ehliyet hesaplama
+
+        function ehliyetCheck() {
+            let yas = Number(prompt("Lütfen Yaşınızı Giriniz."));
+            let uygunYas = 18 - yas;
+
+            if (yas <= 0) {
+                alert("Hatalı Yaş Verisi Girdiniz!!! TEKRAR DENEYİN");
+            }
+            else if (yas >= 18) {
+                alert("Ehliyet Alabilirsiniz");
+            }
+
+            else     {
+                alert("Ehliyet Almak İçin Yaşınız Uygun Değil " + uygunYas + " Yıl Sonra ALABİLİRSİNİZ");
+            }
+        }
+
+    </script>
+</body>
+
+</html>

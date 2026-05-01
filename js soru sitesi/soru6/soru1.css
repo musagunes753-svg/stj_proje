@@ -1,0 +1,71 @@
+.ana {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.divm {
+    box-shadow: 0px 0px 7px 3px;
+    justify-content: center;
+    margin-top: 15px;
+    width: 300px;
+    height: 300px;
+    background-color: lightblue;
+    color: black;
+    border: 2px red solid;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 30px;
+}
+
+.divm:hover {
+    color: maroon;
+    background-color: rgb(0, 191, 255);
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: salmon;
+    color: black;
+    margin-left: 60px;
+    font-family: cursive;
+}
+
+body {
+    background-color: bisque;
+}
+
+.btn:hover {
+    background-color: purple;
+    color: green;
+}
+
+#sonuc {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.baş {
+    font-family: cursive;
+    font-size: larger;
+}
+
+input {
+    margin-top: 5px;
+    border-radius: 8px;
+    background-color: darkgrey;
+}
+
+input:hover {
+    color: brown;
+    background-color: palevioletred;
+}
+
+label {
+    font-size: larger;
+    font-weight: bold;
+}

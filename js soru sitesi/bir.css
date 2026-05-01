@@ -1,0 +1,65 @@
+input {
+    font-size: larger;
+}
+
+.container {
+    background-color: pink;
+
+    height: 400px;
+    margin: 10%;
+    border: 2px solid pink;
+    border-radius:25px;
+    box-shadow: 0px 10px 25px;
+}
+.container:hover{
+    background-color: rgb(109, 86, 90);
+}
+
+button {
+    width: 70px;
+    height: 50px;
+}
+
+.row {
+    background-color: aqua;
+    height: 150px;
+    text-align: center;
+    padding-top: 1px;
+}
+
+.üstyazı {
+    font-size:large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ortayazı {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.altkisim{
+    background-color:aqua;
+    height: 150px;
+    text-align: center;
+}
+
+.iltsayfası{
+     font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.solkisim{
+    background-color: rgb(252, 245, 245);
+    height: 770px;
+    color: black;
+    text-align: center;
+    float: left;
+    width: 300px;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+

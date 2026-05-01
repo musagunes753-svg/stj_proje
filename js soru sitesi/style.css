@@ -1,0 +1,27 @@
+button {
+    padding: 15px;
+    border-radius: 15px;
+    font-weight: bolder;
+    background-color: blue;
+    color: #ffff;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+button:hover {
+    background-color: skyblue;
+    font-size: larger;
+}
+
+footer {
+    background-color: #121212;
+    color: #ffff;
+    height: 70px;
+}
+.footerDivi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}

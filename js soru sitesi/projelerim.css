@@ -1,0 +1,96 @@
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, pink, purple, rgb(255, 108, 255));
+        }
+
+        .title-container {
+            background-color: gray;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .title-container h1 {
+            margin: 0;
+            padding: 0;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 30px;
+            color: blue;
+            transition: 0.4s;
+        }
+
+        .title-container h1:hover {
+            text-shadow: 1px 1px 8px blue;
+
+        }
+
+        .title-container p {
+            font-size: x-large;
+            font-weight: bold;
+            color: black;
+            transition: 0.4s;
+
+        }
+
+        .title-container p:hover {
+            text-shadow: 1px 1px 8px black;
+            font-size: xx-large;
+
+        }
+
+        .container {
+            margin: 10%;
+            background-color: rgb(245, 25, 171);
+            min-height: 380px;
+            border-radius: 25px;
+
+        }
+
+        .container:hover {
+            background-color: rgb(173, 134, 140);
+        }
+
+        .question {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+
+
+        }
+
+        button {
+            height: 300px;
+            width: 350px;
+            border-radius: 25px;
+            font-size: x-large;
+            font-weight: bolder;
+            background-color: pink;
+        }
+
+        a {
+            text-decoration: none;
+            color: #121212;
+        }
+
+        .musa {
+            padding: 25px;
+            border-radius: 15px;
+            cursor: pointer;
+            background-color: yellow;
+            border: 2px;
+            width: 900px;
+        }
+
+        .musa:hover {
+            background-color: blue;
+        }
+
+        .altkisim {
+            background-color: aqua;
+            height: 150px;
+            text-align: center;
+        }
