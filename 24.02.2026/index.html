@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAVASCRİPT</title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+        }
+        .titleContainer{
+            height: 300px;
+            background-color: skyblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            
+        }
+        .title{
+            padding: 0;
+            margin: 0;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            /* font-family:cursve; */
+            font-weight: bold;
+            text-shadow: 1px 1px 8px black;
+
+        }
+        .titlePrg{
+            font-family: fantasy;
+            color: #121212;
+            font-size: larger;
+
+        }
+        .cardContainer{
+            min-height: 300px;
+            /* background-color: rgb(86, 75, 243); */
+            background:linear-gradient(to right,red,blue);
+            margin-top: 10%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            
+        }
+        .card{
+            min-height: 250px;
+            /* background-color: rgb(218, 212, 199); */
+            background:linear-gradient(to left,rgb(216, 106, 207),#e92f2f);
+            margin: 5%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            border-radius: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        button{
+            padding: 25px;
+            border-radius: 15px;
+        }
+ 
+    </style>
+    
+</head>
+<body>
+    <div class="titleContainer">
+        <h1 class="title">yaptım uygulamalar</h1>
+        <p class="titlePrg">- 24.02.2026 -</p>
+    </div>
+
+
+    <div class="cardContainer">
+        
+        <div class="card">
+            <p><b>SORU1:</b>klavyeden girilen bir ingilizce cümledeki sesli ve sessiz harflerin sayısının ekranda yazdırın </p>
+            <div class="btnDiv">
+                <button onclick="soru2()">ÇALIŞTIR</button>
+
+            </div>
+        </div>
+        <div class="card">
+            <p><b>SORU2:</b> 54,45,15,94,1,4,48,67,75,25  notlarını diziye aktar en büyük ,en küçük ve ort bul
+            </p>
+            <div>
+                <button onclick="soru3()">ÇALIŞTIR</button>
+
+            </div>
+        </div>
+        <div class="card">
+            <p><b>SORU3:</b> 5 kişinin maaaşı dışardan al 1000tl altını %20 artır güncel maas ekrana yazdır
+            </p>
+            <div>
+                <button onclick="soru4()">ÇALIŞTIR</button>
+
+            </div>
+        </div>
+        <div class="card">
+            <p><b>SORU4:</b>  1 ile 50 arasında random dizi oluşturup  5 elemanlı dizi yapacan bu sayılar 20den buyuk ve tek olan kac tane olduğunu bulun
+            </p>
+            <div>
+                <button onclick="soru5()">ÇALIŞTIR</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="app.js"></script>
+    <script src="app2.js"></script>
+    <script src="app3.js"></script>
+    <script src="app4.js"></script>
+    <script src="app5.js"></script>
+</body>
+</html>
